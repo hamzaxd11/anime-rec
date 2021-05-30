@@ -155,9 +155,6 @@ if __name__ == '__main__':
 	anime_titles = pd.read_csv('data/anime_titles.csv')
 
 
-	recommender_df = load_cosine_sim()
-
-
 	anime_list = anime_titles['name']
 	anime_list = list(anime_list.sort_values())
 
@@ -234,6 +231,9 @@ if __name__ == '__main__':
 
 
 	elif choice == 'Find Similar Anime':
+
+		recommender_df = load_cosine_sim()
+
 
 		st.header('How this algorithm works:')
 		st.write('People who rated an anime highly, also rated these animes similarly')
