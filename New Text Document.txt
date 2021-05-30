@@ -1,0 +1,7 @@
+fewer users
+
+consine similarity saved for itemcf
+
+precalculated cosine sim for users
+user just enters
+pairs calculated for our user only
